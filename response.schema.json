@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Resposta AHP Cerrado",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "instrumentVersion",
+    "responseId",
+    "submissionVersion",
+    "consent",
+    "participant",
+    "presentation",
+    "answers",
+    "calculation",
+    "checksum"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "2.1"
+    },
+    "instrumentVersion": {
+      "const": "2.1.0"
+    },
+    "responseId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "submissionVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "consent": {
+      "type": "object"
+    },
+    "participant": {
+      "type": "object",
+      "required": [
+        "name",
+        "institution",
+        "email",
+        "field"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "field": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "presentation": {
+      "type": "object"
+    },
+    "answers": {
+      "type": "object",
+      "minProperties": 0,
+      "maxProperties": 78
+    },
+    "calculation": {
+      "type": "object"
+    },
+    "checksum": {
+      "type": "object"
+    }
+  }
+}

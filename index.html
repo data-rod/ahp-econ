@@ -1,0 +1,203 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Consulta de especialistas sobre contraste de bordas no Cerrado"><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: blob:; connect-src 'none'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'"><title>Contraste de bordas no Cerrado</title><style>:root{--ink:#17211b;--muted:#5b655e;--paper:#f5f7f3;--card:#fff;--line:#d7ddd6;--green:#24533e;--green2:#e6f0e9;--amber:#a55b13;--focus:#1b65d8}*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#eef3ec 0,#f8faf7 52%,#edf1e9 100%);color:var(--ink);font:16px/1.5 Arial,sans-serif;min-height:100vh}button,input,select,textarea{font:inherit}button{cursor:pointer}.top{height:6px;background:linear-gradient(90deg,#244d37,#5e7e4f,#b78a38)}header{max-width:1100px;margin:auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand strong{display:block;font-size:1.1rem}.brand span{color:var(--muted);font-size:.88rem}.shell{max-width:1000px;margin:0 auto 48px;padding:0 24px}.panel{background:rgba(255,255,255,.96);border:1px solid var(--line);box-shadow:0 18px 50px rgba(31,48,37,.09);border-radius:18px;padding:clamp(22px,4vw,42px)}h1{font-size:clamp(1.75rem,4vw,2.65rem);line-height:1.08;margin:.15em 0 .4em}h2{font-size:1.35rem}p{max-width:72ch}.eyebrow{font-weight:bold;color:var(--green);letter-spacing:.06em;text-transform:uppercase;font-size:.78rem}.muted{color:var(--muted)}.notice{border-left:4px solid var(--amber);background:#fff7e8;padding:12px 16px;border-radius:0 8px 8px 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}label{font-weight:bold}input,select,textarea{width:100%;border:1px solid #aeb9b0;border-radius:8px;padding:11px;background:white;color:var(--ink)}input:focus,select:focus,textarea:focus,button:focus-visible{outline:3px solid color-mix(in srgb,var(--focus) 35%,transparent);outline-offset:2px}.check{display:flex;gap:10px;align-items:flex-start}.check input{width:auto;margin-top:5px}.btn{border:1px solid var(--green);background:var(--green);color:white;border-radius:9px;padding:11px 18px;font-weight:bold}.btn.secondary{background:white;color:var(--green)}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn.danger{color:#862b22;border-color:#caa7a3;background:white}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.progress{height:9px;background:#e3e8e2;border-radius:99px;overflow:hidden}.progress>span{display:block;height:100%;background:linear-gradient(90deg,#387254,#83a060);transition:width .2s}.pair{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;margin:24px 0}.class-card{border:2px solid var(--line);border-radius:14px;padding:20px;background:#fbfcfa;min-height:160px;display:flex;flex-direction:column}.class-card b{font-size:1.12rem}.class-card small{color:var(--muted);margin-top:auto}.versus{align-self:center;color:var(--muted);font-weight:bold}.choice-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:12px}.choice{min-height:58px;border:2px solid var(--line);background:white;border-radius:12px;padding:10px;font-weight:bold}.choice.active{border-color:var(--green);background:var(--green2);color:var(--green)}.equal{grid-column:2}.slider-box{margin:24px 0;padding:18px;border:1px solid var(--line);border-radius:12px;background:#fafbf9}.slider-box.disabled{opacity:.55}.slider-row{display:grid;grid-template-columns:minmax(0,1fr) 56px;gap:18px;align-items:start;margin-top:8px}.slider-track{min-width:0}input[type=range]{display:block;width:100%;padding:0;accent-color:var(--green)}.scale{display:flex;justify-content:space-between;color:var(--muted);font-size:.82rem;line-height:1.35;margin-top:7px}.scale span{text-align:center}.scale span:first-child{text-align:left}.scale span:last-child{text-align:right}.number{font-size:1.5rem;font-weight:bold;text-align:center;line-height:1}.slider-help{margin:14px 0 0}.question-nav{display:flex;justify-content:space-between;gap:12px;margin-top:24px}.link-btn{border:0;background:transparent;color:#315a47;text-decoration:underline;padding:8px}.review-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:7px}.review-grid button{border:1px solid var(--line);border-radius:7px;background:white;padding:8px}.review-grid .done{background:var(--green2);border-color:#8bad98}.review-grid .na{background:#fff2db;border-color:#dab681}.status{padding:18px;border-radius:12px;background:#f2f5f1;border:1px solid var(--line);font-weight:bold}.hidden{display:none!important}dialog{max-width:720px;border:1px solid var(--line);border-radius:16px;padding:0;box-shadow:0 20px 70px #0004}dialog::backdrop{background:#10201999}.dialog-body{padding:26px;max-height:80vh;overflow:auto}.definition{padding:12px 0;border-bottom:1px solid var(--line)}.footnote{font-size:.86rem;color:var(--muted);margin-top:24px}table{border-collapse:collapse;width:100%;font-size:.9rem}th,td{padding:9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#eef2ee}.pill{display:inline-block;padding:3px 8px;border-radius:99px;background:#eef2ee;font-size:.8rem}@media(max-width:700px){header{align-items:flex-start}.grid,.pair,.choice-grid{grid-template-columns:1fr}.versus{text-align:center}.equal{grid-column:auto}.panel{padding:20px}.class-card{min-height:125px}.slider-row{grid-template-columns:minmax(0,1fr) 44px;gap:10px}.scale{font-size:.74rem}.question-nav .btn{flex:1}.shell{padding:0 12px}}@media(max-width:430px){.scale span br{display:none}.scale span{writing-mode:vertical-rl;transform:rotate(180deg);height:72px;text-align:left!important}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}</style></head><body><div class="top"></div><header><div class="brand"><strong>Painel AHP — Cerrado</strong><span>Contraste de bordas com Vegetação Natural Secundária</span></div><div><button class="btn ghost" id="definitions">Definições</button> <button class="btn danger" id="clear">Limpar dados</button></div></header><main class="shell"><section id="intro" class="panel"><div class="eyebrow">Consulta de especialistas</div><h1>Compare 13 tipos de borda no Cerrado</h1><p>Você responderá a 78 comparações. Em cada uma, indique qual classe vizinha produz maior diferença de estrutura, composição ou funcionamento ecológico em relação à mesma Vegetação Natural Secundária.</p><p><strong>Responsáveis:</strong> Rodrigo Lacerda Brito Neto e Silvana Amaral Kampel<br><strong>Instituição:</strong> Instituto Nacional de Pesquisas Espaciais (INPE)<br><strong>Contato e envio das respostas:</strong> <a href="mailto:rodrigo.neto@inpe.br">rodrigo.neto@inpe.br</a><br><strong>Prazo para responder:</strong> 15 dias a partir do recebimento do convite.</p><h2>Consentimento</h2><p>A participação é voluntária. Nome, instituição e e-mail serão usados para controlar duplicidades e solicitar esclarecimentos. A análise usará códigos. Os dados ficam neste navegador até você exportar o arquivo e enviá-lo pelo canal institucional indicado.</p><label class="check"><input id="consent" type="checkbox"> <span>Li as informações e aceito participar desta consulta de contraste AHP.</span></label><h2>Identificação profissional</h2><div class="grid"><div class="field"><label for="name">Nome completo</label><input id="name" autocomplete="name"></div><div class="field"><label for="institution">Instituição</label><input id="institution" autocomplete="organization"></div><div class="field"><label for="email">E-mail</label><input id="email" type="email" autocomplete="email"></div><div class="field"><label for="field">Área principal</label><input id="field" type="text" placeholder="Informe sua área de atuação"></div></div><h2>Referência de julgamento</h2><ul><li>Compare sempre a vizinhança com a mesma Vegetação Natural Secundária focal.</li><li>Considere uma borda imediatamente adjacente, de mesmo comprimento, durante um ciclo anual típico.</li><li>Contraste significa diferença; não significa automaticamente dano ou impedimento.</li></ul><div id="introError" class="notice hidden" role="alert"></div><div class="actions"><button class="btn" id="start">Iniciar ou retomar</button></div></section>
+<section id="question" class="panel hidden"><div class="eyebrow" id="blockLabel"></div><div style="display:flex;justify-content:space-between;gap:18px"><strong id="progressText"></strong><span class="pill" id="qid"></span></div><div class="progress" aria-hidden="true"><span id="progressBar"></span></div><h1>Qual vizinhança gera maior contraste com a Vegetação Natural Secundária?</h1><p class="muted">Escolha A, B ou igualdade. Se escolher A ou B, mova a escala para registrar a intensidade.</p><div class="pair"><article class="class-card"><span class="eyebrow">Classe A</span><b id="classA"></b><p id="descA"></p><small id="codeA"></small></article><div class="versus">versus</div><article class="class-card"><span class="eyebrow">Classe B</span><b id="classB"></b><p id="descB"></p><small id="codeB"></small></article></div><div class="choice-grid"><button class="choice" id="chooseA">A gera maior contraste</button><button class="choice equal" id="chooseEQ">Contrastes iguais</button><button class="choice" id="chooseB">B gera maior contraste</button></div><div id="sliderBox" class="slider-box disabled"><label for="intensity">Intensidade da diferença escolhida</label><div class="slider-row"><div class="slider-track"><input id="intensity" type="range" min="2" max="9" step="1" value="5" disabled aria-describedby="anchor"><div class="scale" aria-hidden="true"><span>2<br>intermediária</span><span>3<br>moderada</span><span>5<br>forte</span><span>7<br>muito forte</span><span>9<br>extrema</span></div></div><output id="number" class="number" for="intensity">—</output></div><p id="anchor" class="muted slider-help">A escala começa sem valor. Mova o controle ou use as setas do teclado.</p></div><div class="question-nav"><button class="btn secondary" id="prev">Anterior</button><button class="btn" id="next">Próxima</button></div></section>
+<section id="finish" class="panel hidden"><div class="eyebrow">Conferência final</div><h1>Revise e exporte sua resposta</h1><div id="finalStatus" class="status"></div><h2>Mapa das comparações</h2><div id="review" class="review-grid"></div><div class="field full" style="margin-top:20px"><label for="comments">Ressalvas ou condições locais importantes</label><textarea id="comments" rows="4"></textarea></div><div class="actions"><button class="btn secondary" id="back">Voltar às comparações</button><button class="btn" id="export">Exportar resposta JSON</button></div><p class="footnote">O SHA-256 detecta alteração acidental, mas não é assinatura digital. Envie o JSON pelo canal institucional informado pela coordenação. Não publique o arquivo: ele contém identificação.</p></section></main><dialog id="glossary"><div class="dialog-body"><div style="display:flex;justify-content:space-between"><h2>Definições das classes</h2><button class="btn secondary" id="closeGlossary">Fechar</button></div><p><strong>Vegetação Natural Secundária</strong></p><p>Formação vegetal natural, com predominância de floresta savânica (cerradão) com altura de 15 a 18m, caracterizada por árvores e arbustos com troncos tortuosos. Diz-se secundária para aquelas regiões que, em algum momento da série histórica do monitoramento do desmatamento do Cerrado, tenham sofrido corte raso (supressão total da vegetação original)</p><div id="defs"></div><p class="footnote">Definições do TerraClass Cerrado disponíveis em: <a href="https://www.terraclass.gov.br/classes?bioma=cerrado" target="_blank" rel="noopener noreferrer">https://www.terraclass.gov.br/classes?bioma=cerrado</a>.</p></div></dialog><script>const SCHEMA_VERSION='2.1';
+const INSTRUMENT_VERSION='2.1.0';
+const STORAGE_KEY='ahp-cerrado-v2-1-draft';
+const classes=[
+  [
+    1,
+    "Vegetação Natural Primária",
+    "Formação vegetal natural, caracterizada por um mosaico de fitofisionomias, variando de campo limpo (estrato herbáceo) a cerradão (estrato árboreo-arbustivo com altura de até 18m), passando por fitofisionomias intermediárias, como campo sujo, campo cerrado e cerrado sensu stricto. Diz-se primária para aquelas regiões que, desde o início do processo de monitoramento do Cerrado, não tenham sofrido supressão total da vegetação original"
+  ],
+  [
+    9,
+    "Silvicultura",
+    "Culturas de espécies florestais naturais ou exóticas, de interesse comercial, geralmente representadas por formações arbóreas monoespecíficas"
+  ],
+  [
+    11,
+    "Pastagem",
+    "Pastagens compostas por vegetação forrageira herbácea de espécies cultivadas, podendo apresentar variação dos extratos herbáceo, arbustivo ou arbóreo"
+  ],
+  [
+    12,
+    "Cultura Agrícola Perene",
+    "Culturas agrícolas perenes, apresentando diferentes estágios de maturidade e cobertura vegetal, como plantações de café, citros, seringueira, entre outras"
+  ],
+  [
+    13,
+    "Cultura Agrícola Semiperene",
+    "Culturas agrícolas semiperenes podendo apresentar ciclo de produção superior ao período de referência, sobretudo cana-de-açúcar"
+  ],
+  [
+    14,
+    "Cultura Agrícola Temporária de 1 Ciclo",
+    "Culturas agrícolas temporárias, apresentando apenas um ciclo de produção no ano de referência, sobretudo de grãos e fibras"
+  ],
+  [
+    15,
+    "Cultura Agrícola Temporária de Mais de 1 Ciclo",
+    "Culturas agrícolas temporárias, apresentando mais de um ciclo de produção no ano de referência, sobretudo de grãos e fibras"
+  ],
+  [
+    16,
+    "Mineração",
+    "Áreas de extração mineral caracterizadas pela presença de solo exposto e alterações da paisagem local"
+  ],
+  [
+    17,
+    "Urbanizada",
+    "Áreas urbanas decorrentes da concentração populacional delimitadora de lugarejos, vilas, cidades ou regiões metropolitanas com infraestrutura diferenciada, apresentando adensamento de arruamentos, casas, prédios e outras edificações públicas"
+  ],
+  [
+    21,
+    "Outras Áreas Edificadas",
+    "Áreas com baixa concentração de edificações, afastadas de áreas com alta concentração populacional, como núcleos de fazenda, complexos agroindustriais, aldeias, hidrelétricas, barragens e outras obras de infraestrutura"
+  ],
+  [
+    20,
+    "Outros Usos",
+    "Áreas que não se encaixam nas demais classes, tais como: afloramentos rochosos, praias, dunas"
+  ],
+  [
+    22,
+    "Desflorestamento no Ano",
+    "Áreas cuja cobertura vegetal natural foi suprimida durante o ano de referência do mapeamento"
+  ],
+  [
+    23,
+    "Corpo D'Água",
+    "Corpos d'água naturais ou artificiais, decorrentes de represamentos de cursos d´água, tais como represas, açudes, carcinicultura, psicultura, etc"
+  ]
+];
+const focalClass=[2,"Vegetação Natural Secundária","Formação vegetal natural, com predominância de floresta savânica (cerradão) com altura de 15 a 18m, caracterizada por árvores e arbustos com troncos tortuosos. Diz-se secundária para aquelas regiões que, em algum momento da série histórica do monitoramento do desmatamento do Cerrado, tenham sofrido corte raso (supressão total da vegetação original)"];
+const pairs=[];
+for(let b=0;b<6;b++){
+ const c=[12,b];for(let t=1;t<=5;t++)c.push((b-t+12)%12,(b+t)%12);c.push((b-6+12)%12);
+ for(let z=0;z<13;z++)pairs.push({id:`Q${String(pairs.length+1).padStart(3,'0')}`,block:b+1,i:c[z],j:c[(z+1)%13]});
+}
+const config={n:13,RI:1.56,maxCR:0.10,minExperts:7,bootstrap:2000,seed:20260909,tolerance:1e-12,maxIterations:10000};
+function rng(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+function shuffle(v,random){v=[...v];for(let i=v.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[v[i],v[j]]=[v[j],v[i]];}return v;}
+function orderedPairIds(seed){const random=rng(Number(seed)>>>0),order=[];for(const b of shuffle([1,2,3,4,5,6],random)){const q=pairs.filter(p=>p.block===b),offset=Math.floor(random()*q.length);for(let k=0;k<q.length;k++)order.push(q[(k+offset)%q.length].id);}return order;}
+function tokenFor(answer){if(!answer||!['A','B','EQ'].includes(answer.choice))return null;if(answer.choice==='EQ')return answer.choice;const s=Number(answer.intensity);return Number.isInteger(s)&&s>=2&&s<=9?answer.choice+s:null;}
+function decode(token){token=String(token??'').trim().toUpperCase();if(token==='EQ')return 1;if(/^[AB][2-9]$/.test(token))return token[0]==='A'?Number(token[1]):1/Number(token[1]);return null;}
+function matrixFromAnswers(answers){const a=Array.from({length:13},()=>Array(13).fill(1)),missing=[],unable=[];for(const p of pairs){const token=tokenFor(answers?.[p.id]);if(token==='NA'){unable.push(p.id);continue;}const v=decode(token);if(v===null){missing.push(p.id);continue;}a[p.i][p.j]=v;a[p.j][p.i]=1/v;}return{a,missing,unable,complete:missing.length===0&&unable.length===0};}
+function eigen(a){const n=a.length;let p=Array(n).fill(1/n),it=0,delta=Infinity;for(;it<config.maxIterations;it++){const y=a.map(row=>row.reduce((s,v,j)=>s+v*p[j],0)),sum=y.reduce((s,v)=>s+v,0),q=y.map(v=>v/sum);delta=Math.max(...q.map((v,j)=>Math.abs(v-p[j])));p=q;if(delta<config.tolerance)break;}if(it===config.maxIterations)throw Error('Vetor próprio não convergiu.');const ap=a.map(row=>row.reduce((s,v,j)=>s+v*p[j],0)),lambda=ap.reduce((s,v,j)=>s+v/p[j],0)/n,residual=Math.max(...ap.map((v,j)=>Math.abs(v-lambda*p[j])));if(residual>1e-9)throw Error('Resíduo do vetor próprio acima da tolerância.');const CI=Math.max(0,(lambda-n)/(n-1));return{p,lambda,CI,CR:CI/config.RI,residual,iterations:it+1};}
+function calculateAnswers(answers){const m=matrixFromAnswers(answers);return m.complete?{...m,...eigen(m.a)}:{...m,p:null,lambda:null,CI:null,CR:null};}
+function aggregate(matrices){const n=config.n,m=matrices.length,a=Array.from({length:n},()=>Array(n).fill(1));for(let i=0;i<n;i++)for(let j=i+1;j<n;j++){a[i][j]=Math.exp(matrices.reduce((s,v)=>s+Math.log(v[i][j]),0)/m);a[j][i]=1/a[i][j];}const e=eigen(a);return{...e,a,d:e.p.map(v=>v/Math.max(...e.p))};}
+function quantile(v,q){const s=[...v].sort((a,b)=>a-b),x=(s.length-1)*q,k=Math.floor(x);return s[k]+(s[Math.min(k+1,s.length-1)]-s[k])*(x-k);}
+function analyzeSelected(items,{bootstrap=config.bootstrap,seed=config.seed}={}){const individual=[],valid=[];for(const item of items){if(!item.include){individual.push({code:item.code,responseId:item.payload.responseId,version:item.payload.submissionVersion,status:'Não selecionada'});continue;}const e=calculateAnswers(item.payload.answers),status=!e.complete?'Incompleta':e.CR<=config.maxCR?'Válida':'Solicitar revisão',row={code:item.code,responseId:item.payload.responseId,version:item.payload.submissionVersion,status,...e};individual.push(row);if(status==='Válida')valid.push(row);}const result={config:{...config,bootstrap,seed},individual,nValid:valid.length,group:null,uncertainty:null,loo:null,reason:'',bootstrapHighCR:null};if(valid.length<config.minExperts){result.reason='Aguardar pelo menos sete matrizes válidas.';return result;}const group=aggregate(valid.map(v=>v.a));result.group=group;const random=rng(seed),samples=Array.from({length:13},()=>[]),bootstrapCR=[];let high=0;for(let b=0;b<bootstrap;b++){const drawn=Array.from({length:valid.length},()=>valid[Math.floor(random()*valid.length)].a),g=aggregate(drawn);bootstrapCR.push(g.CR);if(g.CR>config.maxCR)high++;g.d.forEach((v,k)=>samples[k].push(v));}const loo=valid.map((v,i)=>({removed:v.code,...aggregate(valid.filter((_,j)=>j!==i).map(x=>x.a))}));result.loo=loo;result.uncertainty=classes.map((_,k)=>({lo:quantile(samples[k],.025),hi:quantile(samples[k],.975),looMin:Math.min(...loo.map(v=>v.d[k])),looMax:Math.max(...loo.map(v=>v.d[k])),maxDelta:Math.max(...loo.map(v=>Math.abs(v.d[k]-group.d[k]))),minRank:Math.min(...loo.map(v=>1+v.d.filter(x=>x>v.d[k]+1e-10).length)),maxRank:Math.max(...loo.map(v=>1+v.d.filter(x=>x>v.d[k]+1e-10).length))}));result.bootstrapHighCR=high;result.bootstrapCR=bootstrapCR;result.bootstrapSamples=samples;result.reason='Síntese disponível. Intervalos condicionais ao painel; CR coletivo reportado como diagnóstico.';return result;}
+function stable(value){if(Array.isArray(value))return'['+value.map(stable).join(',')+']';if(value&&typeof value==='object')return'{'+Object.keys(value).filter(k=>k!=='checksum').sort().map(k=>JSON.stringify(k)+':'+stable(value[k])).join(',')+'}';return JSON.stringify(value);}
+async function sha256(text){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text));return Array.from(new Uint8Array(b),v=>v.toString(16).padStart(2,'0')).join('');}
+async function seal(payload){payload.checksum={algorithm:'SHA-256',value:await sha256(stable(payload))};return payload;}
+async function validatePayload(payload){
+ const errors=[],isObject=v=>v!==null&&typeof v==='object'&&!Array.isArray(v),expected=new Set(pairs.map(p=>p.id));
+ if(!isObject(payload))return{ok:false,errors:['JSON deve conter um objeto.'],calculation:calculateAnswers({})};
+ if(payload.schemaVersion!==SCHEMA_VERSION)errors.push('Versão de esquema incompatível.');
+ if(payload.instrumentVersion!==INSTRUMENT_VERSION)errors.push('Versão de instrumento incompatível.');
+ if(!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(payload.responseId??''))errors.push('Identificador inválido.');
+ if(!Number.isInteger(payload.submissionVersion)||payload.submissionVersion<1)errors.push('Versão da resposta inválida.');
+ if(payload.consent?.accepted!==true)errors.push('Consentimento ausente.');
+ for(const k of ['name','institution','email','field'])if(typeof payload.participant?.[k]!=='string'||!payload.participant[k].trim())errors.push('Identificação incompleta: '+k+'.');
+ if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload.participant?.email??''))errors.push('E-mail inválido.');
+ for(const date of [payload.createdAt,payload.exportedAt,payload.consent?.acceptedAt])if(typeof date!=='string'||!Number.isFinite(Date.parse(date)))errors.push('Data inválida.');
+ const seed=payload.presentation?.seed,order=payload.presentation?.order;
+ if(!Number.isInteger(seed)||seed<0||seed>4294967295||!Array.isArray(order)||JSON.stringify(order)!==JSON.stringify(orderedPairIds(seed)))errors.push('Ordem incompatível com a semente.');
+ function checkAnswers(answers,label){
+  if(!isObject(answers)){errors.push(label+': respostas inválidas.');return;}
+  for(const [id,a] of Object.entries(answers)){
+   if(!expected.has(id)){errors.push(label+': pergunta desconhecida '+id);continue;}
+   if(!isObject(a)||!['A','B','EQ'].includes(a.choice)){errors.push(label+': escolha inválida '+id);continue;}
+   if(a.choice==='EQ'?a.intensity!==null:!(a.intensity===null||(Number.isInteger(a.intensity)&&a.intensity>=2&&a.intensity<=9)))errors.push(label+': intensidade inválida '+id);
+  }
+ }
+ function matches(calc,reported){
+  if(!isObject(reported)||calc.complete!==reported.complete)return false;
+  for(const key of ['lambda','CI','CR'])if(calc[key]===null?reported[key]!==null:typeof reported[key]!=='number'||!Number.isFinite(reported[key])||Math.abs(calc[key]-reported[key])>1e-10)return false;
+  for(const key of ['a','p','missing','unable'])if(JSON.stringify(calc[key])!==JSON.stringify(reported[key]))return false;
+  return true;
+ }
+ checkAnswers(payload.answers,'Final');
+ const calc=calculateAnswers(isObject(payload.answers)?payload.answers:{});
+ if(!matches(calc,payload.calculation?.final))errors.push('Matriz ou cálculo declarado divergente.');
+ if(payload.firstComplete){
+  checkAnswers(payload.firstComplete.answers,'Primeira matriz');
+  const initial=calculateAnswers(payload.firstComplete.answers);
+  if(!initial.complete||!matches(initial,payload.firstComplete.calculation))errors.push('Primeira matriz divergente.');
+  const replay=JSON.parse(JSON.stringify(payload.firstComplete.answers));
+  if(!Array.isArray(payload.revisionHistory))errors.push('Histórico inválido.');
+  else for(const revision of payload.revisionHistory){
+   if(!isObject(revision)||!expected.has(revision.questionId)){errors.push('Revisão inválida.');continue;}
+   if(JSON.stringify(replay[revision.questionId]??null)!==JSON.stringify(revision.from))errors.push('Sequência de revisões divergente.');
+   checkAnswers({[revision.questionId]:revision.to},'Revisão');replay[revision.questionId]=revision.to;
+  }
+  if(stable(replay)!==stable(payload.answers))errors.push('Histórico não reconstrói as respostas finais.');
+ }else if(calc.complete)errors.push('Primeira matriz completa ausente.');
+ const status=!calc.complete?'incomplete':calc.CR<=config.maxCR?'eligible':'inconsistent';
+ if(payload.status!==status)errors.push('Estado declarado divergente.');
+ if(payload.checksum?.algorithm!=='SHA-256'||payload.checksum?.value!==await sha256(stable(payload)))errors.push('Checksum divergente.');
+ return{ok:errors.length===0,errors,calculation:calc};
+}
+function csv(rows){return'\uFEFF'+rows.map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(';')).join('\r\n');}
+
+// O centro do polegar percorre largura menos 24 px. As marcas usam o mesmo eixo.
+const scaleStyle=document.createElement('style');
+scaleStyle.textContent=`
+.slider-row{grid-template-columns:minmax(0,1fr) 48px;gap:16px;align-items:start}
+.slider-track{min-width:0}
+#intensity{appearance:none;-webkit-appearance:none;border:0;border-radius:0;background:transparent;height:44px;margin:0;padding:0;width:100%;cursor:pointer}
+#intensity::-webkit-slider-runnable-track{height:6px;background:#cbd6ce;border-radius:10px}
+#intensity::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:24px;height:24px;border:3px solid white;border-radius:50%;background:var(--green);box-shadow:0 0 0 1px var(--green);margin-top:-9px}
+#intensity::-moz-range-track{height:6px;background:#cbd6ce;border-radius:10px}
+#intensity::-moz-range-thumb{width:18px;height:18px;border:3px solid white;border-radius:50%;background:var(--green)}
+#intensity:disabled{cursor:default}
+#sliderBox.unset #intensity::-webkit-slider-thumb{background:white;box-shadow:0 0 0 1px #76877b}
+#sliderBox.unset #intensity::-moz-range-thumb{background:white}
+.scale{position:relative;display:block;margin:0 12px;height:28px;font-size:14px;line-height:20px}
+.scale span,.scale span:first-child,.scale span:last-child{position:absolute;top:0;transform:translateX(-50%);writing-mode:horizontal-tb;height:auto;text-align:center!important;font-size:14px}
+.scale span::before{content:'';position:absolute;top:-7px;left:50%;height:5px;width:1px;background:#76877b}
+.scale span.selected{color:var(--green);font-weight:bold}
+.number{line-height:44px;font-size:26px}
+.scale-legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin:12px 0;font-size:14px;color:var(--muted)}
+.scale-legend span{white-space:nowrap}
+.slider-help{min-height:48px;margin:12px 0 0;font-size:16px}
+.choice:focus-visible,.link-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+@media(max-width:700px){.slider-row{grid-template-columns:minmax(0,1fr) 36px;gap:10px}.scale{font-size:14px}.scale-legend{gap:6px 12px}}
+`;
+document.head.append(scaleStyle);
+const ticks=document.querySelector('.scale');
+const partial=document.createElement('button');partial.className='link-btn';partial.textContent='Conferir ou exportar resposta parcial';partial.onclick=()=>showFinish();document.querySelector('.question-nav').after(partial);
+document.getElementById('comments').addEventListener('input',()=>{state.comments=document.getElementById('comments').value;save();});
+ticks.replaceChildren(...Array.from({length:8},(_,i)=>{const el=document.createElement('span');el.textContent=i+2;el.dataset.value=i+2;el.style.left=(i/7*100)+'%';return el;}));
+const legend=document.createElement('div');legend.className='scale-legend';
+for(const text of ['2 · Entre igual e moderada','3 · Moderada','5 · Forte','7 · Muito forte','9 · Extrema']){const span=document.createElement('span');span.textContent=text;legend.append(span);}
+document.querySelector('.slider-row').after(legend);
+const verbal={2:'Entre igual e moderada',3:'Moderada',4:'Entre moderada e forte',5:'Forte',6:'Entre forte e muito forte',7:'Muito forte',8:'Entre muito forte e extrema',9:'Extrema'};
+function updateScaleUI(ans){
+ const value=ans?.intensity,hasValue=Number.isInteger(value),directional=['A','B'].includes(ans?.choice);
+ document.getElementById('sliderBox').classList.toggle('unset',!hasValue);
+ ticks.querySelectorAll('span').forEach(el=>el.classList.toggle('selected',hasValue&&Number(el.dataset.value)===value));
+ const range=document.getElementById('intensity');range.setAttribute('aria-valuetext',hasValue?value+' — '+verbal[value]:'Intensidade ainda não escolhida');
+ document.getElementById('anchor').textContent=hasValue?'Intensidade registrada: '+value+' — '+verbal[value]+'.':ans?.choice==='EQ'?'Igualdade registrada (1). Não é necessário escolher intensidade.':directional?'Escolha a intensidade de 2 a 9. Arraste, clique na barra ou use as setas.':'Escolha primeiro A ou B para habilitar a intensidade.';
+ for(const choice of ['A','B','EQ'])document.getElementById('choose'+choice).setAttribute('aria-pressed',String(ans?.choice===choice));
+}
+
+const $=id=>document.getElementById(id),now=()=>new Date().toISOString(),clone=x=>JSON.parse(JSON.stringify(x));
+function fresh(){const seed=new Uint32Array(1);crypto.getRandomValues(seed);return{responseId:crypto.randomUUID(),seed:seed[0],order:orderedPairIds(seed[0]),startedAt:now(),answers:{},revisionHistory:[],firstComplete:null,exports:0,index:0,comments:'',participant:{}};}
+let state;try{state=JSON.parse(localStorage.getItem(STORAGE_KEY))||fresh();}catch{state=fresh();}
+function save(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch{if(!document.getElementById('storageWarning')){const warning=document.createElement('p');warning.id='storageWarning';warning.className='notice';warning.setAttribute('role','alert');warning.textContent='O navegador não conseguiu salvar o rascunho. Exporte sua resposta antes de fechar esta página.';document.querySelector('header').after(warning);}}}
+function fields(){return{name:$('name').value.trim(),institution:$('institution').value.trim(),email:$('email').value.trim(),field:$('field').value};}
+function hydrate(){for(const [k,id] of [['name','name'],['institution','institution'],['email','email'],['field','field']])$(id).value=state.participant?.[k]??'';$('comments').value=state.comments??'';$('consent').checked=!!state.consent;}
+function setScreen(id){for(const x of ['intro','question','finish'])$(x).classList.toggle('hidden',x!==id);scrollTo({top:0,behavior:'smooth'});}
+function current(){return pairs.find(p=>p.id===state.order[state.index]);}
+function maybeFirstComplete(){const c=calculateAnswers(state.answers);if(c.complete&&!state.firstComplete)state.firstComplete={at:now(),answers:clone(state.answers),calculation:c};}
+function put(choice,intensity=null){const p=current(),old=clone(state.answers[p.id]??null),next={choice,intensity,updatedAt:now()};if((choice==='A'||choice==='B')&&!Number.isInteger(intensity))next.intensity=null;state.answers[p.id]=next;if(state.firstComplete&&JSON.stringify(old)!==JSON.stringify(next))state.revisionHistory.push({at:now(),questionId:p.id,from:old,to:clone(next)});maybeFirstComplete();save();renderQuestion();}
+function renderQuestion(){const p=current(),a=classes[p.i],b=classes[p.j],ans=state.answers[p.id];$('blockLabel').textContent='Bloco '+p.block+' de 6';$('progressText').textContent='Comparação '+(state.index+1)+' de 78';$('qid').textContent=p.id;$('progressBar').style.width=((state.index+1)/78*100)+'%';$('classA').textContent=a[1];$('descA').textContent=a[2];$('codeA').textContent='Código '+a[0];$('classB').textContent=b[1];$('descB').textContent=b[2];$('codeB').textContent='Código '+b[0];for(const id of ['chooseA','chooseB','chooseEQ'])$(id).classList.remove('active');if(ans)$('choose'+ans.choice)?.classList.add('active');updateScaleUI(ans);const directional=ans&&(ans.choice==='A'||ans.choice==='B');$('intensity').disabled=!directional;$('sliderBox').classList.toggle('disabled',!directional);$('intensity').value=ans?.intensity??5;$('number').textContent=ans?.intensity??'—';$('prev').disabled=state.index===0;$('next').textContent=state.index===77?'Conferir':'Próxima';}
+function showFinish(){state.comments=$('comments').value;save();const c=calculateAnswers(state.answers),answered=pairs.filter(p=>tokenFor(state.answers[p.id])).length,na=pairs.filter(p=>tokenFor(state.answers[p.id])==='NA').length;if(c.complete)$('finalStatus').textContent='78 respostas completas. CR = '+c.CR.toFixed(6)+'. '+(c.CR<=config.maxCR?'Matriz dentro do limiar predefinido de 0,10.':'CR acima de 0,10; você pode revisar ou exportar para auditoria.');else $('finalStatus').textContent=answered+' de 78 comparações registradas.';$('comments').value=state.comments??'';$('review').replaceChildren(...state.order.map((id,k)=>{const b=document.createElement('button'),t=tokenFor(state.answers[id]);b.textContent=id;b.className=t==='NA'?'na':t?'done':'';b.title=t||'Sem resposta';b.onclick=()=>{state.index=k;setScreen('question');renderQuestion();};return b;}));setScreen('finish');}
+$('defs').innerHTML=classes.map(c=>'<div class="definition"><strong>'+c[1]+' ('+c[0]+')</strong><br>'+c[2]+'</div>').join('');$('definitions').onclick=()=>$('glossary').showModal();$('closeGlossary').onclick=()=>$('glossary').close();
+$('start').onclick=()=>{const f=fields(),missing=Object.entries(f).filter(([,v])=>!String(v).trim());if(!$('consent').checked||missing.length||!$('email').checkValidity()){const e=$('introError');e.textContent='Confirme o consentimento e preencha corretamente os quatro campos.';e.classList.remove('hidden');return;}state.participant=f;state.consent=true;state.consentAt=state.consentAt||now();save();setScreen('question');renderQuestion();};
+$('chooseA').onclick=()=>put('A');$('chooseB').onclick=()=>put('B');$('chooseEQ').onclick=()=>put('EQ');$('intensity').oninput=e=>put(state.answers[current().id]?.choice,Number(e.target.value));$('prev').onclick=()=>{state.index=Math.max(0,state.index-1);save();renderQuestion();};$('next').onclick=()=>{if(!tokenFor(state.answers[current().id])){alert('Escolha uma opção e, se necessário, mova a escala.');return;}if(state.index===77)showFinish();else{state.index++;save();renderQuestion();}};$('back').onclick=()=>{setScreen('question');renderQuestion();};
+$('clear').onclick=()=>{if(confirm('Apagar o rascunho e a identificação deste navegador?')){localStorage.removeItem(STORAGE_KEY);state=fresh();hydrate();setScreen('intro');}};
+$('export').onclick=async()=>{state.comments=$('comments').value;const final=calculateAnswers(state.answers),payload={schemaVersion:SCHEMA_VERSION,instrumentVersion:INSTRUMENT_VERSION,responseId:state.responseId,submissionVersion:state.exports+1,createdAt:state.startedAt,exportedAt:now(),consent:{accepted:state.consent,acceptedAt:state.consentAt},participant:state.participant,presentation:{seed:state.seed,order:state.order},answers:state.answers,firstComplete:state.firstComplete,revisionHistory:state.revisionHistory,calculation:{final},comments:state.comments,status:!final.complete?'incomplete':final.CR<=config.maxCR?'eligible':'inconsistent'};await seal(payload);const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='resposta_ahp_cerrado_'+state.responseId+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);state.exports++;save();};hydrate();if(Object.keys(state.answers).length){setScreen('question');renderQuestion();}
+</script></body></html>
